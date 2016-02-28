@@ -1,9 +1,9 @@
 
-#include <ESP8266WiFi.h>
-#include <DHT.h>
-#include <pcf8574_esp.h>
+#include "ESP8266WiFi.h"
+
 
 #include "hal.h"
+#include "test.h"
 #include "tests.h"
 
 #ifdef ESP8266
@@ -12,14 +12,15 @@ extern "C" {
 }
 #endif
 
+#define P(text) Serial.println(text);
+
+bool i2c_mode;
+
 void setup()
 {
 	Serial.begin(9600);
 	Serial.println();
-
 }
-
-bool i2c_mode;
 
 void loop()
 {
@@ -95,4 +96,15 @@ void loop()
 	
 	delay(60000);
 }
+
+
+
+
+
+
+
+
+
+
+
 
