@@ -19,7 +19,7 @@
 
 #define PIN_DHT 13
 
-#define DHT_TYPE DHT11
+#define DHT_TYPE DHT22
 
 #define I2C_BTN1 4
 #define I2C_BTN2 5
