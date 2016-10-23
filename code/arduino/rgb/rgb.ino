@@ -1,6 +1,5 @@
-
-#define LED_R 12
-#define LED_G 14
+#define LED_R 14
+#define LED_G 12
 #define LED_B 16
 
 
