@@ -1,5 +1,7 @@
 # ESP8266 Demo Board
 
+> If you are loking for **workshop material** go to **[esp8266-workshop](https://github.com/bastlirna/esp8266-workshop) repository** (in czech only).
+
 ## Description
 
 *At the begining of 2016 we organized workshop focused on programming of the ESP8266 modules at linux conference [InstallFest 2016](http://installfest.cz/if16/) in Prague. We were looking for some demoboard that we could use during the workshop. There are a lot of handy boards like NodeMcu or WeMos D1 mini available. However, we were unable to find any board with basic peripheries that would suit our needs. So we decided to build our own…*
